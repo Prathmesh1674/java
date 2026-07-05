@@ -52,8 +52,9 @@ public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    // Input array size
+    // Input array size n
     System.out.print("Enter size of array: ");
+    System.out.println("");
     int n = sc.nextInt();
 
     int[] nums = new int[n];
